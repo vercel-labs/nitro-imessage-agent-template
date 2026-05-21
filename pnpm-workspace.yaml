@@ -1,0 +1,23 @@
+shamefullyHoist: true
+
+allowBuilds:
+  '@nestjs/core': false
+  '@parcel/watcher': false
+  '@swc/core': false
+  better-sqlite3: false
+  cbor-extract: false
+  esbuild: false
+  unrs-resolver: false
+
+minimumReleaseAge: 2880
+
+minimumReleaseAgeExclude:
+  # Nuxt
+  - '@nuxt/*'
+  - '@nuxtjs/*'
+  - nuxt
+  - nuxt-*
+  # Vercel
+  - '@vercel/*'
+  - '@ai-sdk/*'
+  - ai
